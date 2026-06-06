@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contenido {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+article {
+  background: #eaeaea;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* 📱 RESPONSIVO */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
